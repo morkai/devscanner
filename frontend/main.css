@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+#graph {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+#scan {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 1em;
+}
+text {
+  font-family: Arial, sans-serif;
+  font-size: .8em;
+  cursor: default;
+}
+.link {
+  stroke: #333;
+  stroke-width: 1px;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "devscanner",
+  "version": "0.0.0",
+  "description": "Quick and dirty visualization of a custom IoT network in Node.js & d3.js.",
+  "license": "MIT",
+  "homepage": "https://github.com/morkai/devscanner",
+  "author": {
+    "name": "Łukasz Walukiewicz",
+    "email": "lukasz@walukiewicz.eu",
+    "url": "http://lukasz.walukiewicz.eu/"
+  },
+  "bugs": "https://github.com/morkai/devscanner/issues",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/morkai/devscanner.git"
+  },
+  "engine": [
+    "node >=0.10.20"
+  ],
+  "main": "./backend/main",
+  "dependencies": {
+    "express": "~3.4.8",
+    "socket.io": "~0.9.16",
+    "h5.coap": "git+http://github.com/morkai/h5.coap.git"
+  }
+}
